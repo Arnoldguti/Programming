@@ -1,8 +1,6 @@
 
 
 
-import com.google.gson.annotations.SerializedName;
-import com.uth.uth.R;
 
 import org.apache.commons.lang3.StringUtils;
 
