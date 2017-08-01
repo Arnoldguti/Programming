@@ -1,5 +1,4 @@
 
-import com.google.gson.annotations.SerializedName;
 import com.yalantis.ucrop.util.BitmapLoadUtils;
 
 import org.apache.commons.lang3.StringUtils;
