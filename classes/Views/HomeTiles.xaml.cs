@@ -88,13 +88,7 @@ namespace Project.Views.Home
 
             //Transitions of FlipView
             flipTimer();
-           
-
-
-
-          
-
-
+     
         }
 
 
@@ -146,22 +140,12 @@ namespace Project.Views.Home
                                 }
                         else
                 {
-                  
-
-                    //No hay conexión a Internet
-                 //   MessageDialog info = new MessageDialog("No hay conexión a Internet");
-                  //  await info.ShowAsync();
+     
                 }
-
-
-             
-               
+                   
             };
           
              App.timerSession.Start();
-
-            
-
             }
 
         public static bool InternetConectivity
@@ -303,9 +287,6 @@ namespace Project.Views.Home
                 month.Text = calendar.MonthAsSoloString();
             }
             */
-
-
-
         }
 
      
@@ -379,18 +360,14 @@ namespace Project.Views.Home
          MessageDialog info = new MessageDialog("No hay conexión a Internet");
          await info.ShowAsync();
      }
-         
-
+        
  }
 
         private async void click_news(object sender, Windows.UI.Xaml.Input.PointerRoutedEventArgs e)
         {
 
             // hay conexión a internet ?
-            ClickValues();
-            
-           
-			
+            ClickValues();      			
 			// TODO: Agregar implementación de controlador de eventos aquí.
         }
 
@@ -489,28 +466,20 @@ App.NetworkAvailable = true;
  }
 
 
-        /// <summary>
-        /// Detects Internet Access Connectivity in WinRT
-        /// </summary>
-        /// <remarks>
-        /// This is a Property to put into a class 
-        /// requires using Windows.Networking.Connectivity;
-        /// </remarks>
-   
-
+ 
         private  async void click_admin2(object sender, PointerRoutedEventArgs e)
         {
             // hay conexión a internet ?
             if (InternetConectivity)
             {
-                Debug.WriteLine("SII HAYYY INTERNETTTTT");
+           
                 CustomSetting CustomSettingFlyout = new CustomSetting();
                 CustomSettingFlyout.Show();
                 App.charged_grades = false;
                 App.displays = 2;
             }else
             {
-                Debug.WriteLine("NOO HAYYY INTERNETTTTT");
+              
   
                 //No hay conexión a Internet
                 MessageDialog info = new MessageDialog("No hay conexión a Internet");
@@ -533,9 +502,7 @@ App.NetworkAvailable = true;
             }
             else
             {
-                Debug.WriteLine("NOO HAYYY INTERNETTTTT");
-
-
+           
                 //No hay conexión a Internet
                 MessageDialog info = new MessageDialog("No hay conexión a Internet");
                 await info.ShowAsync();
@@ -553,9 +520,7 @@ App.NetworkAvailable = true;
             }
             else
             {
-                Debug.WriteLine("NOO HAYYY INTERNETTTTT");
-
-
+            
                 //No hay conexión a Internet
                 MessageDialog info = new MessageDialog("No hay conexión a Internet");
                 await info.ShowAsync();
@@ -578,7 +543,6 @@ App.NetworkAvailable = true;
             // hay conexión a internet ?
             if (InternetConectivity)
             {
-                Debug.WriteLine("SII HAYYY INTERNETTTTT");
                 CustomSetting CustomSettingFlyout = new CustomSetting();
                 CustomSettingFlyout.Show();
                 App.charged_grades = false;
@@ -586,8 +550,7 @@ App.NetworkAvailable = true;
             }
             else
             {
-                Debug.WriteLine("NOO HAYYY INTERNETTTTT");
-
+             
                 //No hay conexión a Internet
                 MessageDialog info = new MessageDialog("No hay conexión a Internet");
                 await info.ShowAsync();
@@ -605,8 +568,6 @@ App.NetworkAvailable = true;
             }
             else
             {
-                Debug.WriteLine("NOO HAYYY INTERNETTTTT");
-
 
                 //No hay conexión a Internet
                 MessageDialog info = new MessageDialog("No hay conexión a Internet");
@@ -628,9 +589,7 @@ App.NetworkAvailable = true;
             }
             else
             {
-                Debug.WriteLine("NOO HAYYY INTERNETTTTT");
-
-
+             
                 //No hay conexión a Internet
                 MessageDialog info = new MessageDialog("No hay conexión a Internet");
                 await info.ShowAsync();
