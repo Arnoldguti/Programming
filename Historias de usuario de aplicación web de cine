@@ -1,0 +1,65 @@
+Historias de usuario de aplicación web de cine
+Consulta de las películas que se ofrecen en un multicine. 
+
+1.	Yo como cliente, necesito conocer las películas disponibles con sus horarios, con la finalidad de evaluar las mejores opciones de compra. {8}
+
+Pruebas de Aceptación: 
+	Seleccionar una película y la disponibilidad de horarios. 
+	Seleccionar una sala y comprobar la disponibilidad de películas.
+	Comprobar que los horarios corresponden a los horarios de trabajo de los cinemas.
+ 
+Tareas de Desarrollo:  
+	Construir un esquema calendario para ofrecer la información de usuario.
+	Comprobación de la información en la base de datos.
+	Ofrecer los canales correctos de intercambio de información, JSON, XML entre la base de datos y la interfaz de usuario mediante la construcción de servicios web.
+
+2.	Yo como cliente, necesito consultar los cinemas disponibles, con la finalidad buscar las ubicaciones a las cuales puedo ir.{9}
+
+Pruebas de Aceptación: 
+	Seleccionar las ubicaciones cercanas y ver direcciones de cinemas. 
+	Comprobar la validez de los nombres de las ciudades y salas.
+
+Tareas de Desarrollo:  
+	Construir un mapa en donde podemos ver las ubicaciones de los cinemas.
+
+3.	Yo como cliente, necesito poder registrarme como usuario frecuente, con la finalidad de obtener descuentos y promociones.{8}
+Pruebas de Aceptación: 
+	Agregar usuarios como miembros. 
+
+Tareas de Desarrollo:  
+	Desarrollar un formulario de registro para los clientes
+
+
+4.	Yo como cliente, necesito poder seleccionar una película y pagarla, con la finalidad de confirmar una compra.{9}
+Pruebas de Aceptación: 
+	Seleccionar una película y realizar el pago respectivo.
+	Comprobar las opciones pago.
+
+Tareas de Desarrollo:  
+	Desarrollar un módulo de pago de eventos seleccionados ofreciendo la posibilidad de pagar mediante tarjeta de crédito, PayPal u otros.
+
+
+
+
+5.	Yo como cliente, necesito imprimir o enviar por correo los tickets comprados, con la finalidad de poder tener un comprobante o referencia de compra.{9}
+Pruebas de Aceptación: 
+	Impresión de comprobantes de registros
+
+Tareas de Desarrollo:  
+	Impresión automática en pantalla al realizar la compra
+	Envío de mensajes de correo electrónico con el comprobante de pago del ticket.
+
+6.	Yo como cliente, necesito obtener retroalimentación de los procesos que tiene el sistema, con la finalidad de obtener ayuda en situaciones que no comprenda.
+7.	Yo como cliente, necesito seleccionar la posición de los asientos que quiero comprar, con la finalidad de ser libre de elegir la comodidad de la sala.
+8.	Yo como cliente, necesito recibir notificaciones de cambios de horario de tickets comprados, con la finalidad de estar actualizado con las programaciones de las películas.
+9.	Yo como cliente, necesito ver los tráiler de las películas, con la finalidad de obtener un pre visualización de la compra.
+10.	Yo como Gerente de ventas, necesito conocer las mejores ventas durante los meses del año, con la finalidad proyectar las mejores promociones para los clientes en ciertas etapas del año.
+11.	Yo como Director de mercadeo, necesito conocer los gustos de los jóvenes entre las edades de 17 a 28 años, con la finalidad buscar las mejores proyecciones que se adapten a sus gustos.
+12.	Yo como Gestor de contabilidad, necesito conocer todas las compras de tickets que se realizan, con la finalidad llevar un control ordenado de las compras.
+13.	Yo como Administrador de sistemas, necesito poder gestionar las actividades de los usuarios de la aplicación web, con la finalidad ofrecer los privilegios necesarios a los usuarios para mantener la estabilidad de los procesos.
+14.	Yo como Administrador de sistemas, necesito poder crear, eliminar y editar eventos en el sistema, con la finalidad apoyar las gestiones de administración.
+15.	Yo como Administrador de eventos, necesito poder administrar los eventos de las proyecciones en los cinemas en determinada fechas, con la finalidad de ofrecer a los clientes la posibilidad de hacer sus consultas y compras.
+16.	Yo como Cajero necesito poder realizar reservaciones de proyecciones y realizar pagos de las mismas, con la finalidad de atender a los clientes que hacen sus compras presenciales.
+17.	Yo como Supervisor de ventas, necesito conocer las reservaciones procesadas y no procesadas, con la finalidad de  llevar un control diario de las ventas.
+18.	Yo como encargado de proyecciones  necesito eliminar, agregar y editar horarios con la finalidad de ofrecer información para consultas a clientes.
+
