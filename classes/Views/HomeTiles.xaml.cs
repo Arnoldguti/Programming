@@ -22,9 +22,7 @@ using Windows.UI.Popups;
 
 namespace Project.Views.Home
 {
-    /// <summary>
-    /// Página básica que proporciona características comunes a la mayoría de las aplicaciones.
-    /// </summary>
+   
     public sealed partial class HomeTiles : Page
     {
 
