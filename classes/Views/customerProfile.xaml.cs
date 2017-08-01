@@ -27,8 +27,6 @@ using Windows.Networking.Connectivity;
 
 
 
-// La plantilla de elemento Página básica está documentada en http://go.microsoft.com/fwlink/?LinkId=234237
-
 namespace Profile.Views
 {
     /// <summary>
